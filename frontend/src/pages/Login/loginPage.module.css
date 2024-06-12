@@ -1,0 +1,62 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Use viewport height to cover the entire screen */
+  background-image: url('C:\Users\ishan.DESKTOP-E21R247\OneDrive\Pictures\Desktop\FoodApp\frontend\public\pexels-ella-olsson-1640773.jpg'); /* Replace 'your_background_image.jpg' with the path to your image */
+  background-size: cover; /* Ensure the background image covers the entire container */
+}
+
+.details {
+  width: 28rem;
+  background-color: rgb(233 217 217 / 80%); /* Set background color with opacity for the form container */
+  padding: 2rem; /* Add padding for better spacing */
+  border-radius: 10px; /* Add border-radius for rounded corners */
+  /* color: #333;  */
+}
+
+.details form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; /* Center form elements horizontally */
+  /* color: #333;  */
+}
+
+/* Adjustments for Input and Button components */
+.input {
+  margin-bottom: 1rem; /* Add margin-bottom for spacing between inputs */
+}
+
+.button {
+  margin-top: 1rem; /* Add margin-top for spacing between button and inputs */
+}
+
+/* Styling for the link */
+.register {
+  text-align: center; /* Center-align the text */
+  margin-top: 1rem; /* Add margin-top for spacing between register link and form */
+  color: #333; /* Change the text color */
+}
+
+.register a {
+  color: #28b22a; /* Change the link color */
+}
+
+ 
+.input input {
+  color: #333;
+  border: 1px solid #ec8a8a; /* Add a border */
+  padding: 0.5rem; /* Add padding */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Add transition for smooth effect */
+}
+
+.input input:hover {
+  border-color: #007bff; /* Change border color on hover */
+}
+
+.input input:focus {
+  outline: none; /* Remove outline on focus */
+  border-color: #007bff; /* Change border color on focus */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add box shadow on focus */
+}
